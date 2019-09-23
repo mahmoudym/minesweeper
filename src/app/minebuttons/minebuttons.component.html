@@ -1,0 +1,5 @@
+  <div  *ngFor = "let tile of tiles; let i = index ">
+    <div *ngFor = "let button of tile; let j = index">
+    <button type="button" (click)="click(i,j,$event.target)"class="btn"> </button>
+    </div>
+</div>
